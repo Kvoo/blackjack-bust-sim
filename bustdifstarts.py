@@ -4,7 +4,9 @@
 import random
 
 def intro():
-    pass
+    print("\nThis program simulates a chosen amount of blackjack games for each")
+    print("possible dealer starting card and estimates the probability of a ")
+    print("dealer bust for each of those cards.")
 
 def takecard():
     card = random.randint(1, 10)
